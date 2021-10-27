@@ -1,0 +1,23 @@
+
+.header__hamburguesa--formato{
+    width: ($porcentaje/20)*9;
+
+}
+
+.logo{
+    width: 15vw;
+    height: ($viewHeight/10)*3;
+}
+
+.header__carrito--formato{
+    width: ($porcentaje/20)*9;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: $pixeles/10;
+}
+
+.iconos{
+    width: 4vw;
+    height: ($viewHeight/100)*8;
+}
+

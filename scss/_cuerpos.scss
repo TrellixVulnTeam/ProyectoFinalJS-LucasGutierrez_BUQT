@@ -1,0 +1,29 @@
+/********************INDEX***************************/
+
+.bg-blacksquad {
+  background-image: url(../img/FondoSquareDark.png);
+}
+
+.main__img--tamaño {
+  width: $porcentaje;
+  height: ($viewHeight/10)*7;
+}
+
+/******************CONTACTO**************************/
+
+/*formato formulario de contacto*/
+.bordes {
+    padding: $pixeles/5;
+    border: double $pixeles/10 grey; }
+  
+  #boton {
+    color: white;
+    width: $porcentaje/4;
+    height: $pixeles/4;
+    border-radius: $pixeles/20;
+    border: $sinFormato;
+    background: linear-gradient(to top, black, grey); }
+  
+  #boton:hover {
+    background: linear-gradient(to top, grey, black); }
+  

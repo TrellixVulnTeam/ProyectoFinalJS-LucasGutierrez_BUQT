@@ -1,0 +1,9 @@
+.footer {
+  justify-content: center;
+}
+
+.footer__logo--tamaño {
+  width: 4vw;
+  height: ($viewHeight/100)*8;
+  margin: $pixeles/10;
+}

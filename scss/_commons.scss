@@ -1,0 +1,33 @@
+
+$viewHeight: 100vh;
+
+$pixeles: 100px;
+$porcentaje: 100%;
+$sinFormato: none;
+$d-flex: flex;
+
+
+/*reseteo de css*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $fontMain;
+  color: white;
+}
+
+.flex {
+  display: $d-flex;
+}
+
+.flexDirCol {
+  flex-direction: column;
+}
+
+.formulario--formato {
+  width: $porcentaje/2;
+}
+
+.mensaje--formato {
+  width: ($porcentaje/4)*3;
+}
