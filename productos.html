@@ -100,7 +100,10 @@
       <div class="flex header__carrito--formato">
         <div>
           <a href="Carrito.html"
-            ><img src="img/carrito-de-compras.png" alt="CARRITO" class="iconos me-3"
+            ><img
+              src="img/carrito-de-compras.png"
+              alt="CARRITO"
+              class="iconos me-3"
           /></a>
           <a href="backOffice.html"
             ><img src="img/usuario3.png" alt="USUARIO" class="iconos me-3"
@@ -130,10 +133,24 @@
 
     <!-- INICIO GRILLA DE PRODUCTOS -->
 
-    <main class="bg-blacksquad container-fluid row" id="crearProductos">
+    <main class="bg-blacksquad">
+      <div>
+        <form action="" method="" class="flex flexDirCol formulario--formato">
+          <label for="">Filtrar por nombre del producto</label>
+          <select name="nombre" id="nombre">
+            <option value="ninguno">Ninguno</option>
+            <option value="riñonera">Riñonera</option>
+            <option value="mochila">Mochila</option>
+            <option value="billetera">Billeterra</option>
+            <option value="zapatillas">Zapatillas</option>
+            <option value="Bolso">Bolso</option>
+            <option value="cinto">Cintos</option>
+          </select>
+        </form>
+        <button id="boton">Filtrar</button>
+      </div>
 
-        
-      
+      <div class="container-fluid row" id="crearProductos"></div>
     </main>
 
     <!-- FIN GRILLA DE PRODUCTOS -->
